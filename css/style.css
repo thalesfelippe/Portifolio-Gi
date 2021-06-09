@@ -16,6 +16,7 @@ body {
     text-decoration: none;
     box-sizing: border-box;
 }
+
 ::before,::after{
     box-sizing: border-box;
 }
@@ -24,21 +25,67 @@ section {
     background-color: #F2F2FC;
     min-height: 100vh;
     display: block;
+    padding: 0 30px;
 }
+
+section .container {
+    padding-top: 60px;
+    padding-bottom: 70px;
+}
+
+.section-title {
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+.section-title h2 {
+    font-size: 40px;
+    color: #00374B;
+    font-weight: 700;
+    margin: 0;
+}
+
+.section-title h2::before {
+
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    position: relative;
+}
+
+.padd-15 {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
 .main-content{
     padding-left: 270px;
+}
+
+.container {
+    max-width: 1100px;
+    width: 100%;
+    margin: auto;
+}
+
+.hidden {
+    display: none;
 }
 
 /* Aside */
 .aside {
     width: 270px;
-    background-color: #E4B803;
+    background-color: #ffb400;
     position: fixed;
     height: 100%;
     left: 0;
     top: 0;
     z-index: 10;
-    border-right: 1px solid #00374B;
+    border-right: 1px solid #222222;
     padding: 30px;
 }
 
@@ -50,7 +97,7 @@ section {
     height: 200px;
     background-color: #00374B;
     border-radius: 50%;
-    box-shadow: 2px 3px 10px #5E5B52;
+    box-shadow: 2px 3px 10px #222222;
 }
 
 .aside .logo img{
@@ -153,4 +200,13 @@ section {
     font-weight: 600;
     text-decoration: none;
 }
+
 /* Home */
+
+.home {
+    min-height: 100vh;
+    display: flex;
+}
+
+/* About Section */
+
