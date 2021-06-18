@@ -445,6 +445,12 @@ section .container {
     color: #00374B;
 }
 
+.about .about-content .timeline .timeline-title span {
+    font-size: 14px;
+    font-weight: 400;
+    color: #222222;
+}
+
 .about .about-content .timeline .timeline-text {
     font-size: 16px;
     line-height: 25px;
@@ -453,6 +459,22 @@ section .container {
 }
 
 .about .about-content .timeline .timeline-text span {
-    color: #ffb400;
+    color: #222;
+    font-weight: 600;
+}
+
+.about .about-content .specializations {
+    margin-top: 15px;
+}
+
+.about .about-content .specializations-list h5 {
+    font-size: 18px;
+    line-height: 40px;
+    border-bottom: 1px solid #222222;
+    color: #00374B;
+}
+
+.about .about-content .specializations-list span {
+    color: #222;
     font-weight: 500;
 }
