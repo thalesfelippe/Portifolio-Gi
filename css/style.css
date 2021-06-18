@@ -244,15 +244,21 @@ section .container {
     display: flex;
 }
 
+.project-name {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.project-session {
+    display: flex;
+    margin-bottom: 30px;
+}
+
 .project-box {
     flex: 0 0 60%;
     width: 60%;
     background-color: #C4C4C4;
-}
-
-.project-name {
-    font-size: 30px;
-    font-weight: 500;
+    margin-right: 30px;
 }
 
 .project-box .project-carousel {
@@ -268,11 +274,11 @@ section .container {
 }
 
 .description-box {
-    flex: 0 0 40%;
-    width: 40%;
+    flex: 0 0 35%;
+    width: 100%;
     padding: 0;
     margin: 0;
-    background-color: #222222;
+    background-color: #C4C4C4;
 }
 
 /* About Section */
