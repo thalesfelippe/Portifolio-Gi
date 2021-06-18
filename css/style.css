@@ -26,6 +26,7 @@ section {
     min-height: 100vh;
     display: block;
     padding: 0 30px;
+    padding-bottom: 15px;
 }
 
 section .container {
@@ -269,14 +270,21 @@ section .container {
 }
 
 .project-box .project-carousel .carousel-item img {
-    width: 500;
-    height: 500px;
+    width: 100%;
 }
 
 .description-box {
     flex: 0 0 35%;
     width: 100%;
-    padding: 0;
+    padding: 30px;
+    margin: 0;
+    background-color: #C4C4C4;
+}
+
+.midia-box {
+    flex: 0 0 100%;
+    width: 100%;
+    padding: 10px 20px;
     margin: 0;
     background-color: #C4C4C4;
 }
