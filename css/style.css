@@ -244,6 +244,37 @@ section .container {
     display: flex;
 }
 
+.project-box {
+    flex: 0 0 60%;
+    width: 60%;
+    background-color: #C4C4C4;
+}
+
+.project-name {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.project-box .project-carousel {
+}
+
+.project-box .project-carousel .carousel-item {
+    height: 500px;
+}
+
+.project-box .project-carousel .carousel-item img {
+    width: 500;
+    height: 500px;
+}
+
+.description-box {
+    flex: 0 0 40%;
+    width: 40%;
+    padding: 0;
+    margin: 0;
+    background-color: #222222;
+}
+
 /* About Section */
 
 .about .about-content {
