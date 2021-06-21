@@ -262,7 +262,10 @@ section .container {
     margin-right: 30px;
 }
 
-.project-box .project-carousel {
+.carousel-item {
+    background-color: red;
+    color: red;
+    opacity: 0.5;
 }
 
 .project-box .project-carousel .carousel-item {
@@ -271,6 +274,10 @@ section .container {
 
 .project-box .project-carousel .carousel-item img {
     width: 100%;
+}
+
+.project-carousel .carousel-item {
+    
 }
 
 .description-box {
@@ -282,11 +289,24 @@ section .container {
 }
 
 .midia-box {
-    flex: 0 0 100%;
-    width: 100%;
+    display: flex;
     padding: 10px 20px;
     margin: 0;
     background-color: #C4C4C4;
+}
+
+.midia-text {
+    flex: 0 0 80%;
+    width: 100%;
+}
+
+.midia-links {
+    flex: 0 0 20%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-evenly;
 }
 
 /* About Section */
